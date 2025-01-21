@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BouncingBanana - BANA</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffeb3b;
+            color: #3e2723;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+            background: url('https://raw.githubusercontent.com/meemgen/BouncingBanana/main/BouncingBanana.png') no-repeat center;
+            background-size: cover;
+        }
+        h1 {
+            font-size: 48px;
+            animation: bounce 2s infinite;
+        }
+        h2 {
+            font-size: 24px;
+            color: #d50000;
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            background-color: #ff5722;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #e64a19;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            background-color: #3e2723;
+            color: white;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+        .roadmap {
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(to right, #ffeb3b, #388e3c);
+        }
+        .timeline-item {
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #d50000;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BouncingBanana 🎉</h1>
+        <h2>Ticker: BANA</h2>
+        <a href="https://t.me/+shFK0sY3yc9hODIx" target="_blank" class="btn">Join Telegram 🚀</a>
+    </header>
+    <section>
+        <h2>About BouncingBanana</h2>
+        <p>Get ready to peel back the layers of fun!</p>
+    </section>
+    <section>
+        <h2>Tokenomics</h2>
+        <p>Interactive visuals will display our amazing tokenomics soon!</p>
+    </section>
+    <section>
+        <h2>Our Community</h2>
+        <p>Join us and let’s create something amazing together!</p>
+    </section>
+    <section>
+        <h2>Roadmap to Success</h2>
+        <div class="roadmap"></div>
+        <div class="timeline-item">Q1 2025: Launch 🚀</div>
+        <div class="timeline-item">Q2 2025: Major Partnerships 🤝</div>
+        <div class="timeline-item">Q3 2025: Community Events 🎊</div>
+    </section>
+    <footer>
+        <p>© 2025 BouncingBanana. All rights reserved.</p>
+    </footer>
+</body>
+</html>
